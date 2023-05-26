@@ -1,3 +1,7 @@
+::backdrop {
+    background-color: rgba(25, 28, 31, 0.8);
+}
+
 .modal__controller {
     background-color: var(--color-grey-1);
     padding: 0;
