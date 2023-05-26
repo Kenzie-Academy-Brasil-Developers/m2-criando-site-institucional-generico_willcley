@@ -1,0 +1,142 @@
+.main__header {
+    background-color: var(--color-grey-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 781px;
+    gap: 44px;
+}
+
+.main__header h1 {
+    color: var(--color-grey-6);
+}
+
+.main__header h1 span {
+    color: var(--color-primary);
+}
+
+.main__header p {
+    color: var(--color-grey-3);
+    width: 770px;
+}
+
+.main__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-grey-0);
+    padding: 82px 236px 82px 236px;
+}
+
+.main__info h2 {
+    color: var(--color-grey-6);
+}
+
+.main__info p {
+    color: var(--color-grey-4);
+    width: 611px;
+}
+
+.main__questions {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-grey-1);
+    padding: 100px 236px;
+    gap: 169px;
+}
+
+.questions__about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+}
+
+.questions__about h2 {
+    color: var(--color-grey-6);
+}
+
+.questions__about p {
+    color: var(--color-grey-3);
+}
+
+.questions__list span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    gap: 40px;
+}
+
+.questions__list h3 {
+    color: var(--color-grey-6);
+}
+
+.questions__list p {
+    color: var(--color-grey-3);
+}
+
+.main__comments {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--color-grey-1);
+    padding: 100px 236px;
+    gap: 64px;
+}
+
+.main__comments ul {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.main__comments li {
+    width: 746px;
+}
+
+.main__comments li div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.student__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.student__comment {
+    width: 492px;
+}
+
+.comments__students h3 {
+    color: var(--color-grey-5);
+}
+
+.comments__students .students__status {
+    color: var(--color-grey-3);
+}
+
+.comments__students p {
+    color: var(--color-grey-5);
+}
+
+.comments__about {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    width: 446px;
+    padding: 80px 52px;
+    gap: 35px;
+}
+
+.comments__about h2 {
+    color: var(--color-grey-5);
+}
+
+.comments__about p {
+    color: var(--color-grey-6);
+}

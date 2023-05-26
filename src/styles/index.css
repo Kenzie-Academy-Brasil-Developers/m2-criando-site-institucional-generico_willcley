@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('./reset.css');
+@import url('./globalStyle.css');
+@import url('./buttons.css');
+@import url('./main.css');
+@import url('./modal.css');
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+header {
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 236px 20px 236px;
+    border-bottom: 2px solid var(--color-primary);
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-6);
+    padding: 50px 775px;
+}
